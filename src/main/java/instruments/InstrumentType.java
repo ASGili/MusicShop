@@ -1,10 +1,10 @@
 package instruments;
 public enum InstrumentType {
 
-    BRASS("TRUMP!"),
-    WOODWIND("HORN!"),
-    PERCUSSION("BANG!"),
-    STRINGS("THRING!");
+    BRASS("TRUMPET"),
+    WOODWIND("HORN"),
+    PERCUSSION("BANG"),
+    STRINGS("THRING");
 
     private String sound;
     InstrumentType(String sound) {
